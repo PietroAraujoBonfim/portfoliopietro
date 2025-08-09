@@ -1,41 +1,13 @@
-.content .skills {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.hard {
+    display: inline-flex;
 }
 
-
-.content .skills div {
-    width: 100%;
-}
-
-.content .skills .hard {
-    padding: 0;
+.skills {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
-    align-items: center;
 }
 
 .hard {
-    list-style: none;
-}
-
-.hard li img {
-    width: 3rem;
-}
-
-.soft li {
-    margin-bottom: .5rem;
-}
-
-@media screen and (min-width: 768px) {
-    .content .skills {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-
+    gap: 30px;
 }
